@@ -1,0 +1,123 @@
+body.dark * {
+  transition: 0.5s ease all;
+}
+
+body.dark nav {
+  background-color: #8ab6d6;
+}
+
+body.dark section {
+  background-color: #f5f5f5;
+}
+
+body.dark .navbar__link a {
+  color: black;
+  font-weight: 600;
+}
+
+body.dark .navbar__link a:hover {
+  background-color: #caf7e3;
+}
+
+body.dark .navbar__logo a {
+  color: black;
+  font-weight: 600;
+}
+
+body.dark .navbar__logo:hover {
+  background-color: #caf7e3;
+}
+
+body.dark .section__title {
+  color: black;
+}
+
+body.dark .section__subtitle {
+  color: #333333;
+}
+
+.about__description {
+  color: #444444;
+}
+
+body.dark .about__description span {
+  color: #353535;
+}
+
+body.dark .about__description h2 {
+  color: #222222;
+}
+
+body.dark .skill__title {
+  color: #111111;
+}
+
+body.dark .skill__item {
+  background: #bebebe;
+  color: #191919;
+}
+
+body.dark .skill__rating {
+  color: #111111;
+}
+
+body.dark .colorized-star {
+  color: yellow;
+}
+
+body.dark .skill__item {
+  color: #666666;
+}
+
+body.dark .skill__item:hover {
+  color: black;
+  border: 1px solid black;
+}
+
+body.dark .services__item {
+  background: #707070;
+}
+
+body.dark .services__item:hover {
+  border-bottom: 5px solid #40bad5;
+}
+
+body.dark .services__item:hover i {
+  color: black;
+}
+
+body.dark .services__item i {
+  color: #303030;
+}
+
+body.dark .services__item h3 {
+  color: #111111;
+}
+
+body.dark .services__item p {
+  color: #101010;
+}
+
+body.dark .active a {
+  color: black;
+}
+
+body.dark .footer {
+  background-color: #7a7a7a;
+}
+
+body.dark .footer__item--copyright {
+  display: inline-flex;
+  color: black;
+}
+
+body.dark .form__input {
+  border-bottom: 3px solid #40bad5;
+  background-color: #f5f5f5;
+  color: black;
+  font-weight: 600;
+}
+
+body.dark .form__input:focus {
+  background: linear-gradient(to bottom, transparent, #ccc);
+}
