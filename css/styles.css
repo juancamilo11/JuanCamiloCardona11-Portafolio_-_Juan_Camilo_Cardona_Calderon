@@ -52,7 +52,7 @@ section,
 
 .navbar__logo {
   padding: 10px;
-  font-size: 24px;
+  font-size: 22px;
   align-self: center;
   border-radius: 15px/20px;
   margin-left: 0px;
@@ -91,6 +91,7 @@ section,
   background: #303030;
   border-radius: 1000px;
   border: none;
+  margin-left: 10px;
   position: relative;
   cursor: pointer;
   display: flex;

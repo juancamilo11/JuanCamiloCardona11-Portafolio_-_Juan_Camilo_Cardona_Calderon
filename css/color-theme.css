@@ -118,6 +118,16 @@ body.dark .form__input {
   font-weight: 600;
 }
 
+body.dark .form__button {
+  background-color: #333;
+  color: #aaa;
+}
+
+body.dark .form__button:hover {
+  background-color: #555;
+  color: #eee;
+}
+
 body.dark .form__input:focus {
   background: linear-gradient(to bottom, transparent, #ccc);
 }

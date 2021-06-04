@@ -236,3 +236,9 @@
     top: 5%;
   }
 }
+
+@media (max-width: 360px) {
+  .navbar__logo {
+    font-size: 20px;
+  }
+}
