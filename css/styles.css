@@ -52,10 +52,10 @@ section,
 
 .navbar__logo {
   padding: 10px;
-  font-size: 22px;
+  font-size: 20px;
   align-self: center;
   border-radius: 15px/20px;
-  margin-left: 0px;
+  margin-left: -10px;
 }
 
 .navbar__logo:hover {
@@ -69,10 +69,8 @@ section,
   display: flex;
   height: 100%;
   align-items: center;
-}
-
-.navbar__link {
-  padding-left: 5px;
+  color: #555;
+  font-weight: 400;
 }
 
 .navbar__link a {
