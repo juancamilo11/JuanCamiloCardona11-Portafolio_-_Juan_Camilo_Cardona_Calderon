@@ -37,7 +37,7 @@
   .navbar__link a {
     padding-left: 200px;
     padding-right: 200px;
-    background-color: red;
+    background-color: black;
   }
 
   .one {
@@ -50,35 +50,11 @@
   .switch {
     margin-left: 0px;
   }
-  /* .navbar__menu {
-    display: flex;
+
+  .navbar__link--separator {
+    display: none;
   }
 
-  .navbar__links {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    flex-direction: column;
-    background: rgba(0, 0, 0, 0.97);
-    font-size: 25px;
-    margin: 0 -20px;
-    z-index: 10;
-    transform: translateX(100%);
-    opacity: 0;
-    transition: all 0.5s;
-  }
-
-  .visible {
-    display: flex;
-    transform: translateX(0);
-    opacity: 1;
-    transition: all 0.5s;
-  }
-
-  .navbar__link {
-    padding-left: 0px;
-    margin-top: 30px;
-  } */
   section {
     padding: 75px 0;
   }
@@ -203,6 +179,11 @@
     background-size: cover;
     background-position: center;
   }
+  .navbar__link a {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: black;
+  }
 
   section {
     padding: 60px 0;
@@ -260,6 +241,12 @@
 @media (max-width: 480px) {
   .form__button {
     width: 50%;
+  }
+
+  .navbar__link a {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
   }
 
   .footer__item--copyright {
