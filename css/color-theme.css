@@ -21,6 +21,7 @@ body.dark section {
 body.dark .navbar__link a {
   color: black;
   font-weight: 600;
+  background-color: #8ab6d6;
 }
 
 body.dark .navbar__link a:hover {

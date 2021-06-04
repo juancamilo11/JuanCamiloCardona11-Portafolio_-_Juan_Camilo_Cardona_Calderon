@@ -113,18 +113,12 @@
       }
    });
 
-   window.addEventListener('click', function(e){
-      let $buttons = document.querySelectorAll('.navbar__link');
-      $buttons.forEach(($button)=> {
-         if(e.target == $button) {
-            setTimeout(() => {
-               $counter=0;
-               $links.classList.remove('two');
-               $links.className = ('navbar__links one');
-            }, 500);
-         }
-
-      })
+   $links.addEventListener('click', function(e){      
+      setTimeout(() => {         
+         $counter = 0;
+         $links.classList.add('one');
+         $links.classList.remove('two');
+      }, 600);
    });
 
 })();
