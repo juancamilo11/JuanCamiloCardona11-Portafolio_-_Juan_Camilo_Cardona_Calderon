@@ -84,3 +84,49 @@
 
 })(document);
 
+
+//IIFE (Inmediatly Invoked Function Expretions) for the responsive menu
+
+(()=> {
+
+   const $button = document.querySelector('.navbar__menu');
+   const $links = document.querySelector('.navbar__links');
+   let $counter = 0;
+
+   $button.addEventListener('click',function(){
+      if($counter == 0){
+         $counter=1;
+         $links.classList.remove('one');
+         $links.classList.add('two');
+      }else{
+         $counter = 0;
+         $links.classList.add('one');
+         $links.classList.remove('two');
+      }
+   })
+
+   window.addEventListener('resize', function(){
+      if(screen.width > 991){
+         $counter=0;
+         $links.classList.remove('two');
+         $links.className = ('navbar__links one');
+      }
+   });
+
+   window.addEventListener('click', function(e){
+      let $buttons = document.querySelectorAll('.navbar__link');
+      $buttons.forEach(($button)=> {
+         if(e.target == $button) {
+            setTimeout(() => {
+               $counter=0;
+               $links.classList.remove('two');
+               $links.className = ('navbar__links one');
+            }, 500);
+         }
+
+      })
+   });
+
+})();
+
+
