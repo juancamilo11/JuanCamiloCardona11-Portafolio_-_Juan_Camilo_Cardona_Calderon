@@ -60,7 +60,6 @@ section,
 
 .navbar__logo:hover {
   background-color: #111;
-  /* color: #71c9ce; */
   color: #40bad5;
 }
 
@@ -82,7 +81,7 @@ section,
 
 .navbar__link a:hover {
   background-color: #111;
-  color: #40bad5;
+  color: #40bad9;
 }
 
 .switch {
@@ -124,7 +123,14 @@ section,
   line-height: 30px;
   display: block;
   background: none;
-  color: #f5f5f5;
+}
+
+.switch__symbol--sun {
+  color: yellow;
+}
+
+.switch__symbol--moon {
+  color: #71c9ce;
 }
 
 .navbar__menu {
@@ -208,7 +214,7 @@ section,
 
 .about__description {
   text-align: left;
-  color: #8e8e8e;
+  font-weight: bold;
   padding-right: 80px;
   line-height: 40px;
 }
@@ -290,6 +296,7 @@ section,
 }
 
 .services__item:hover {
+  background-color: #222;
   transition: border 0.3s;
   border-bottom: 5px solid #40bad5;
 }
@@ -322,6 +329,7 @@ section,
 
 .portfolio__item {
   background: white;
+  border-radius: 10px;
   position: relative;
   object-fit: cover;
   overflow: hidden;
@@ -366,6 +374,7 @@ section,
 
 .portfolio__description--title {
   color: #40bad5;
+  font-size: 18px;
 }
 
 .portfolio__description--text {
@@ -377,15 +386,17 @@ section,
 }
 
 .button {
-  background: #191919;
-  color: #f5f5f5;
+  background: black;
+  border-radius: 4px;
+  color: #aaa;
   padding: 5px 10px;
   display: inline-block;
   margin: auto;
 }
 
 .button:hover {
-  color: #40bad5;
+  background-color: #333;
+  color: #fff;
 }
 
 .button--cta {
@@ -623,7 +634,7 @@ section,
   top: 0px;
   left: 0px;
   z-index: 1000;
-  clip-path: circle(150% at 100% 0);
+  clip-path: inset(0 0 0 0);
   transition: all 1s;
 }
 
@@ -635,7 +646,7 @@ section,
 }
 
 .loader2 {
-  clip-path: circle(0% at 100% 0);
+  clip-path: inset(0 100% 0 0);
 }
 
 .enter-count {
